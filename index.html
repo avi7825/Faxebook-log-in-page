@@ -5,69 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>facebook-login or sign up</title>
+    <title>Tip calculator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2family=farro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
-        <div class="row">
-        </div class="col-logo">
-        <img src="https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo.png" alt="logo">
-        <h2>Facebook helps you connect and share with the people in your life.</h2>
-        </div>
-        <div class="col-form">
-            <div class="form-container">
-                <input type="text" placeholder="Email
-            adress or phone number">
-                <input type="Password" placeholder="Password">
-                <button class="btn-log in">login</button>
-                <a href="#">Forgotten Password</a>
-                <button class="btn-new">Creat new
-                    Account</button>
-            </div>
-            <p><a href="#"><b>Creat a page</b></a> for
-                a celebrity, brand or business.</p>
-        </div>
+        <h1>Tip calculator</h1>
+        <div>
+            <label>Bill Amount</label>
+            <input type="text" name="" id="bill_amount">
+            <br>
+            <label>Tip Percentage</label>
+            <input type="text" name="" id="tip_percentage">
+            <br>
+            <label>Tip Amount</label>
+            <input type="text" name="" id="tip_total" disabled>
+            <br>
+            <label>Total Billed</label>
+            <input type="text" name="" id="Total_billed" disabled>
+            <br>
+            <button onclick="tipcalcy()">calculate</button>
         </div>
     </main>
-    <footer>
-        <div class="footer-contents">
-            <o1>
-                <li>English (uk)</li>
-                <li><a href="#">मराठी</a></li>
-                <li><a href="#">हिन्दी</a></li>
-                <li><a href="#">മലയാളം</a></li>
-                <li><a href="#">ગુજરાતી</a></li>
-                <li><a href="#">ಕನ್ನಡ</a></li>
-                <li><a href="#">ਪੰਜਾਬੀ</a></li>
-                <li><a href="#"> தமிழ் </a></li>
-                <li><a href="#">বাংলা</a></li>
-                <li><a href="#">മലയാളം</a></li>
-                <li><a href="#">Русский</a></li>
-                <li><a href="#">Français (France)</a></li>
-                </li><button>+</button></li>
-            </o1>
-            </o1>
-            <li><a href="#">S’inscrire</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Messenger</a></li>
-            <li><a href="#">Facebook Lite</a></li>
-            <li><a href="#">Watch</a></li>
-            <li><a href="#">Bulletin</a></li>
-            <li><a href="#">Développeurs</a></li>
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Create ad</a></li>
-            <li><a href="#">Create Page</a></li>
-            <li><a href="#">Developers</a></li>
-            <li><a href="#">HelpSettings</a></li>
-            <ol>
-             <small>facebook @ 2021</small>   
-        </div>
-    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
